@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import WhyChooseUs from "./components/WhyChooseUs";
@@ -18,6 +18,32 @@ import ReviewsPage from "./components/ReviewsPage";
 
 export default function App() {
   const [view, setView] = useState<"home" | "services" | "about" | "gallery" | "education" | "reviews">("home");
+
+  useEffect(() => {
+    const sendHeight = () => {
+      const height = document.documentElement.scrollHeight;
+      window.parent.postMessage({ iframeHeight: height }, "*");
+    };
+
+    // Send height on load
+    sendHeight();
+
+    // Send height on resize
+    window.addEventListener("resize", sendHeight);
+
+    // Keep sending every 500ms for dynamic content (animations, lazy loads)
+    const interval = setInterval(sendHeight, 500);
+
+    return () => {
+      window.removeEventListener("resize", sendHeight);
+      clearInterval(interval);
+    };
+  }, []);
+
+  // ... rest of your App
+
+
+
 
   const scrollToSection = (id: string) => {
     if (id === "services") {
