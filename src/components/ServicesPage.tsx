@@ -58,22 +58,22 @@ export default function ServicesPage({ onQuoteClick, onCallClick }: ServicesPage
     <div className="select-all font-sans text-neutral-800 bg-[#F8F9FA]">
       
       {/* 1. HERO HEADER */}
-      <section className="relative bg-[#061830] text-white pt-28 pb-20 sm:pt-36 sm:pb-24 px-4 overflow-hidden">
+      <section className="relative bg-slate-100 text-slate-900 pt-28 pb-20 sm:pt-36 sm:pb-24 px-4 overflow-hidden border-b border-slate-200">
         {/* Radar Concentric Circles matching theme */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none z-0">
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[350px] h-[350px] border border-white/[0.03] border-dashed rounded-full" />
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[550px] h-[550px] border border-white/[0.03] border-dashed rounded-full" />
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[750px] h-[750px] border border-white/[0.03] border-dashed rounded-full" />
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[350px] h-[350px] border border-slate-300/[0.2] border-dashed rounded-full" />
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[550px] h-[550px] border border-slate-300/[0.2] border-dashed rounded-full" />
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[750px] h-[750px] border border-slate-300/[0.2] border-dashed rounded-full" />
         </div>
 
         <div className="max-w-[1200px] mx-auto text-center relative z-10">
           <span className="text-xs font-display font-extrabold tracking-[0.25em] text-[#C41230] uppercase mb-4 block">
             OUR SERVICES
           </span>
-          <h1 className="font-display font-bold text-4xl sm:text-5xl lg:text-6xl tracking-tight leading-[1.15] mb-6 max-w-4xl mx-auto">
+          <h1 className="font-display font-bold text-4xl sm:text-5xl lg:text-6xl text-slate-900 tracking-tight leading-[1.15] mb-6 max-w-4xl mx-auto">
             Quality HVAC Service <span className="text-[#C41230]">At an Affordable Price</span>
           </h1>
-          <p className="text-slate-300 text-sm sm:text-base md:text-lg leading-relaxed max-w-2xl mx-auto font-sans">
+          <p className="text-slate-600 text-sm sm:text-base md:text-lg leading-relaxed max-w-2xl mx-auto font-sans font-medium">
             From professional installation to annual cleaning and emergency repairs — we keep your home comfortable, efficient, and safe year-round.
           </p>
         </div>
@@ -88,7 +88,7 @@ export default function ServicesPage({ onQuoteClick, onCallClick }: ServicesPage
             <div className="w-14 h-14 bg-[#C41230] text-white rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg shadow-[#C41230]/20">
               <Wrench className="w-6 h-6" />
             </div>
-            <h2 className="font-display font-bold text-3xl sm:text-4xl text-[#061830] tracking-normal mb-2">
+            <h2 className="font-display font-bold text-3xl sm:text-4xl text-slate-900 tracking-normal mb-2">
               Installation
             </h2>
             <p className="text-[#4a5568] text-[15px] sm:text-base max-w-2xl mx-auto leading-relaxed font-sans mt-3">
@@ -102,7 +102,7 @@ export default function ServicesPage({ onQuoteClick, onCallClick }: ServicesPage
             {/* Card 1 */}
             <div className="bg-[#F8F9FA] rounded-2xl border border-gray-100 p-6 sm:p-8 flex flex-col justify-between hover:shadow-lg transition-all duration-300">
               <div>
-                <h3 className="font-display font-bold text-xl text-[#061830] mb-4">
+                <h3 className="font-display font-bold text-xl text-slate-900 mb-4">
                   Mini Split Installation
                 </h3>
                 <p className="text-sm text-[#4a5568] leading-relaxed font-sans mb-6">
@@ -135,7 +135,7 @@ export default function ServicesPage({ onQuoteClick, onCallClick }: ServicesPage
             {/* Card 2 */}
             <div className="bg-[#F8F9FA] rounded-2xl border border-gray-100 p-6 sm:p-8 flex flex-col justify-between hover:shadow-lg transition-all duration-300">
               <div>
-                <h3 className="font-display font-bold text-xl text-[#061830] mb-4">
+                <h3 className="font-display font-bold text-xl text-slate-900 mb-4">
                   Central Heat Pump Installation
                 </h3>
                 <p className="text-sm text-[#4a5568] leading-relaxed font-sans mb-6">
@@ -168,7 +168,7 @@ export default function ServicesPage({ onQuoteClick, onCallClick }: ServicesPage
             {/* Card 3 */}
             <div className="bg-[#F8F9FA] rounded-2xl border border-gray-100 p-6 sm:p-8 flex flex-col justify-between hover:shadow-lg transition-all duration-300">
               <div>
-                <h3 className="font-display font-bold text-xl text-[#061830] mb-4">
+                <h3 className="font-display font-bold text-xl text-slate-900 mb-4">
                   Air Exchanger Installation
                 </h3>
                 <p className="text-sm text-[#4a5568] leading-relaxed font-sans mb-6">
@@ -211,7 +211,7 @@ export default function ServicesPage({ onQuoteClick, onCallClick }: ServicesPage
             <div className="w-14 h-14 bg-[#C41230] text-white rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg shadow-[#C41230]/20">
               <Sparkles className="w-6 h-6" />
             </div>
-            <h2 className="font-display font-bold text-3xl sm:text-4xl text-[#061830] tracking-normal mb-2">
+            <h2 className="font-display font-bold text-3xl sm:text-4xl text-slate-900 tracking-normal mb-2">
               Cleaning & Maintenance
             </h2>
             <p className="text-xs font-display font-bold tracking-[0.12em] text-[#C41230] uppercase mb-4 block mt-3">
@@ -225,31 +225,31 @@ export default function ServicesPage({ onQuoteClick, onCallClick }: ServicesPage
           {/* Cards Grid of Four, including a specialized highlighted dark split card! */}
           <div className="grid md:grid-cols-2 gap-6 lg:gap-8 text-left mt-12 max-w-[1100px] mx-auto">
             
-            {/* Card 1: Highlighted Dark Slate Card */}
-            <div className="bg-[#061830] text-white rounded-3xl border border-white/5 p-6 sm:p-8 flex flex-col justify-between shadow-[0_15px_40px_rgba(4,17,34,0.15)] relative overflow-hidden group">
+            {/* Card 1: Highlighted Slate Card */}
+            <div className="bg-slate-100 text-slate-900 rounded-3xl border border-slate-200 p-6 sm:p-8 flex flex-col justify-between shadow-xl relative overflow-hidden group">
               <div className="absolute top-0 right-0 w-24 h-24 bg-gradient-to-bl from-white/[0.03] to-transparent pointer-events-none rounded-bl-full" />
               <div>
-                <h3 className="font-display font-bold text-xl text-white mb-4 flex items-center gap-2">
+                <h3 className="font-display font-bold text-xl text-slate-900 mb-4 flex items-center gap-2">
                   <span>Mini Split Cleaning</span>
                   <span className="text-[9px] font-mono font-bold tracking-widest text-[#C41230] bg-[#C41230]/10 border border-[#C41230]/20 px-2.5 py-0.5 rounded">
                     POPULAR
                   </span>
                 </h3>
-                <p className="text-sm text-slate-300 leading-relaxed font-sans mb-6">
+                <p className="text-sm text-slate-650 leading-relaxed font-sans mb-6">
                   Deep cleaning of your mini split's filters, coils, blower wheel, and housing. Removes mold, bacteria, dust, and allergens — improving efficiency and air quality.
                 </p>
                 <div className="space-y-3.5 mb-6">
                   <div className="flex items-start gap-2.5">
                     <CheckCircle2 className="w-4 h-4 text-[#C41230] shrink-0 mt-0.5" />
-                    <span className="text-xs sm:text-sm text-slate-200 font-sans">Eliminates mold & bacteria buildup</span>
+                    <span className="text-xs sm:text-sm text-slate-700 font-sans">Eliminates mold & bacteria buildup</span>
                   </div>
                   <div className="flex items-start gap-2.5">
                     <CheckCircle2 className="w-4 h-4 text-[#C41230] shrink-0 mt-0.5" />
-                    <span className="text-xs sm:text-sm text-slate-200 font-sans">Improves cooling/heating efficiency</span>
+                    <span className="text-xs sm:text-sm text-slate-700 font-sans">Improves cooling/heating efficiency</span>
                   </div>
                   <div className="flex items-start gap-2.5">
                     <CheckCircle2 className="w-4 h-4 text-[#C41230] shrink-0 mt-0.5" />
-                    <span className="text-xs sm:text-sm text-slate-200 font-sans">Extends unit lifespan</span>
+                    <span className="text-xs sm:text-sm text-slate-700 font-sans">Extends unit lifespan</span>
                   </div>
                 </div>
               </div>
@@ -258,7 +258,7 @@ export default function ServicesPage({ onQuoteClick, onCallClick }: ServicesPage
             {/* Card 2 */}
             <div className="bg-white rounded-3xl border border-gray-150 p-6 sm:p-8 flex flex-col justify-between hover:shadow-md transition-all duration-300">
               <div>
-                <h3 className="font-display font-bold text-xl text-[#061830] mb-4">
+                <h3 className="font-display font-bold text-xl text-slate-900 mb-4">
                   Central Heat Pump Cleaning
                 </h3>
                 <p className="text-sm text-[#4a5568] leading-relaxed font-sans mb-6">
@@ -284,7 +284,7 @@ export default function ServicesPage({ onQuoteClick, onCallClick }: ServicesPage
             {/* Card 3 */}
             <div className="bg-white rounded-3xl border border-gray-150 p-6 sm:p-8 flex flex-col justify-between hover:shadow-md transition-all duration-300">
               <div>
-                <h3 className="font-display font-bold text-xl text-[#061830] mb-4">
+                <h3 className="font-display font-bold text-xl text-slate-900 mb-4">
                   Air Exchanger Cleaning
                 </h3>
                 <p className="text-sm text-[#4a5568] leading-relaxed font-sans mb-6">
@@ -310,7 +310,7 @@ export default function ServicesPage({ onQuoteClick, onCallClick }: ServicesPage
             {/* Card 4 */}
             <div className="bg-white rounded-3xl border border-gray-150 p-6 sm:p-8 flex flex-col justify-between hover:shadow-md transition-all duration-300">
               <div>
-                <h3 className="font-display font-bold text-xl text-[#061830] mb-4">
+                <h3 className="font-display font-bold text-xl text-slate-900 mb-4">
                   Dryer Vent Cleaning
                 </h3>
                 <p className="text-sm text-[#4a5568] leading-relaxed font-sans mb-6">
@@ -339,10 +339,10 @@ export default function ServicesPage({ onQuoteClick, onCallClick }: ServicesPage
           <div className="mt-12 text-center">
             <button
               onClick={onQuoteClick}
-              className="inline-flex items-center justify-center gap-2.5 bg-[#061830] hover:bg-[#0c2a4f] text-white px-9 py-4 rounded-xl text-xs font-display font-bold uppercase tracking-[0.2em] transition-all cursor-pointer shadow-lg shadow-[#061830]/10"
+              className="inline-flex items-center justify-center gap-2.5 bg-slate-100 border border-slate-350 hover:bg-slate-200 text-slate-800 px-9 py-4 rounded-xl text-xs font-display font-bold uppercase tracking-[0.2em] transition-all cursor-pointer shadow-md"
             >
               <span>LEARN WHY MAINTENANCE MATTERS</span>
-              <span className="text-sm font-sans">→</span>
+              <span className="text-sm font-sans font-black">→</span>
             </button>
           </div>
 
@@ -358,7 +358,7 @@ export default function ServicesPage({ onQuoteClick, onCallClick }: ServicesPage
             <div className="w-14 h-14 bg-[#C41230] text-white rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg shadow-[#C41230]/20">
               <AlertTriangle className="w-6 h-6" />
             </div>
-            <h2 className="font-display font-bold text-3xl sm:text-4xl text-[#061830] tracking-normal mb-2">
+            <h2 className="font-display font-bold text-3xl sm:text-4xl text-slate-900 tracking-normal mb-2">
               Repairs & Support
             </h2>
             <p className="text-[#4a5568] text-[15px] sm:text-base max-w-2xl mx-auto leading-relaxed font-sans mt-3">
@@ -372,7 +372,7 @@ export default function ServicesPage({ onQuoteClick, onCallClick }: ServicesPage
             {/* Pair Card 1 */}
             <div className="bg-[#F8F9FA] rounded-3xl border border-gray-100 p-6 sm:p-8 flex flex-col justify-between hover:shadow-md transition-shadow">
               <div>
-                <h3 className="font-display font-bold text-xl text-[#061830] mb-4">
+                <h3 className="font-display font-bold text-xl text-slate-900 mb-4">
                   Service & Repair
                 </h3>
                 <p className="text-sm text-[#4a5568] leading-relaxed font-sans mb-6">
@@ -404,7 +404,7 @@ export default function ServicesPage({ onQuoteClick, onCallClick }: ServicesPage
                 <span className="bg-[#C41230]/10 border border-[#C41230]/25 text-[#C41230] text-[9px] font-mono font-bold tracking-widest px-2.5 py-1 rounded mb-4 inline-block mt-1">
                   24/7 EMERGENCY
                 </span>
-                <h3 className="font-display font-bold text-xl text-[#061830] mb-4">
+                <h3 className="font-display font-bold text-xl text-slate-900 mb-4">
                   Emergency Call-Out Service
                 </h3>
                 <p className="text-sm text-[#4a5568] leading-relaxed font-sans mb-6">
@@ -413,7 +413,7 @@ export default function ServicesPage({ onQuoteClick, onCallClick }: ServicesPage
                 <div className="space-y-3.5 mb-6">
                   <div className="flex items-start gap-2.5">
                     <CheckCircle2 className="w-4 h-4 text-[#C41230] shrink-0 mt-0.5" />
-                    <span className="text-xs sm:text-sm text-[#4a5568] font-sans font-semibold text-[#061830]">24/7 — nights, weekends & holidays</span>
+                    <span className="text-xs sm:text-sm text-[#4a5568] font-sans font-semibold text-slate-900">24/7 — nights, weekends & holidays</span>
                   </div>
                   <div className="flex items-start gap-2.5">
                     <CheckCircle2 className="w-4 h-4 text-[#C41230] shrink-0 mt-0.5" />
@@ -465,19 +465,18 @@ export default function ServicesPage({ onQuoteClick, onCallClick }: ServicesPage
           <span className="text-xs font-display font-extrabold tracking-[0.25em] text-[#C41230] uppercase mb-3 block">
             HOW IT WORKS
           </span>
-          <h2 className="font-display font-bold text-3xl sm:text-4xl text-[#061830] tracking-normal mb-12">
+          <h2 className="font-display font-bold text-3xl sm:text-4xl text-slate-900 tracking-normal mb-12">
             Our Simple 4-Step Process
           </h2>
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 items-stretch mt-8 text-left">
-            
             {/* Step 1 */}
             <div className="bg-[#F8F9FA] border border-gray-100 rounded-2xl p-6 relative overflow-hidden flex flex-col justify-between">
               <div>
                 <span className="absolute top-4 right-5 text-4xl sm:text-5xl font-display font-black text-black/[0.04]">
                   01
                 </span>
-                <h3 className="font-display font-bold text-lg text-[#061830] mt-3 mb-2.5">
+                <h3 className="font-display font-bold text-lg text-slate-900 mt-3 mb-2.5">
                   Request Service
                 </h3>
                 <p className="text-xs sm:text-sm text-[#4a5568] leading-relaxed font-sans">
@@ -492,7 +491,7 @@ export default function ServicesPage({ onQuoteClick, onCallClick }: ServicesPage
                 <span className="absolute top-4 right-5 text-4xl sm:text-5xl font-display font-black text-black/[0.04]">
                   02
                 </span>
-                <h3 className="font-display font-bold text-lg text-[#061830] mt-3 mb-2.5">
+                <h3 className="font-display font-bold text-lg text-slate-900 mt-3 mb-2.5">
                   Get an Assessment
                 </h3>
                 <p className="text-xs sm:text-sm text-[#4a5568] leading-relaxed font-sans">
@@ -507,7 +506,7 @@ export default function ServicesPage({ onQuoteClick, onCallClick }: ServicesPage
                 <span className="absolute top-4 right-5 text-4xl sm:text-5xl font-display font-black text-black/[0.04]">
                   03
                 </span>
-                <h3 className="font-display font-bold text-lg text-[#061830] mt-3 mb-2.5">
+                <h3 className="font-display font-bold text-lg text-slate-900 mt-3 mb-2.5">
                   Receive Honest Pricing
                 </h3>
                 <p className="text-xs sm:text-sm text-[#4a5568] leading-relaxed font-sans">
@@ -522,7 +521,7 @@ export default function ServicesPage({ onQuoteClick, onCallClick }: ServicesPage
                 <span className="absolute top-4 right-5 text-4xl sm:text-5xl font-display font-black text-black/[0.04]">
                   04
                 </span>
-                <h3 className="font-display font-bold text-lg text-[#061830] mt-3 mb-2.5">
+                <h3 className="font-display font-bold text-lg text-slate-900 mt-3 mb-2.5">
                   Enjoy Peace of Mind
                 </h3>
                 <p className="text-xs sm:text-sm text-[#4a5568] leading-relaxed font-sans">
@@ -542,7 +541,7 @@ export default function ServicesPage({ onQuoteClick, onCallClick }: ServicesPage
             <span className="text-xs font-display font-extrabold tracking-[0.25em] text-[#C41230] uppercase mb-3 block">
               FAQ
             </span>
-            <h2 className="font-display font-bold text-3xl sm:text-4xl text-[#061830] tracking-normal">
+            <h2 className="font-display font-bold text-3xl sm:text-4xl text-slate-900 tracking-normal">
               Frequently Asked Questions
             </h2>
           </div>
@@ -557,7 +556,7 @@ export default function ServicesPage({ onQuoteClick, onCallClick }: ServicesPage
                 >
                   <button
                     onClick={() => toggleFaq(index)}
-                    className="w-full flex items-center justify-between p-5 text-left font-display font-bold text-sm sm:text-base text-[#061830] hover:bg-neutral-50 cursor-pointer transition-colors"
+                    className="w-full flex items-center justify-between p-5 text-left font-display font-bold text-sm sm:text-base text-slate-900 hover:bg-neutral-50 cursor-pointer transition-colors"
                   >
                     <span className="pr-4">{faq.q}</span>
                     <div className="shrink-0 text-[#C41230]">
@@ -592,18 +591,18 @@ export default function ServicesPage({ onQuoteClick, onCallClick }: ServicesPage
 
       {/* 8. "READY TO GET STARTED?" BLOCK */}
       <section className="py-16 bg-white px-4">
-        <div className="max-w-[1000px] mx-auto bg-[#061830] text-white py-16 px-6 sm:px-12 rounded-3xl text-center relative overflow-hidden shadow-2xl">
+        <div className="max-w-[1000px] mx-auto bg-slate-100 text-slate-900 py-16 px-6 sm:px-12 rounded-3xl text-center relative overflow-hidden shadow-xl border border-slate-200">
           {/* Subtle decoration radar rings */}
           <div className="absolute inset-0 overflow-hidden pointer-events-none z-0">
-            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[400px] h-[400px] border border-white/[0.03] border-dashed rounded-full" />
-            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] border border-white/[0.03] border-dashed rounded-full" />
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[400px] h-[400px] border border-slate-300/30 border-dashed rounded-full" />
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] border border-slate-300/30 border-dashed rounded-full" />
           </div>
 
           <div className="relative z-10">
-            <h2 className="font-display font-bold text-3xl sm:text-4xl text-white mb-4">
+            <h2 className="font-display font-bold text-3xl sm:text-4xl text-slate-900 mb-4">
               Ready to Get Started?
             </h2>
-            <p className="text-slate-300 text-sm sm:text-base max-w-xl mx-auto leading-relaxed font-sans mb-8">
+            <p className="text-slate-650 text-sm sm:text-base max-w-xl mx-auto leading-relaxed font-sans mb-8">
               Get a free estimate today — quality service at an affordable price, no obligation, no pressure.
             </p>
             
@@ -618,9 +617,9 @@ export default function ServicesPage({ onQuoteClick, onCallClick }: ServicesPage
 
               <a
                 href="tel:5062910594"
-                className="border border-white/20 hover:border-white/45 bg-transparent hover:bg-white/5 text-white hover:scale-[1.02] px-8 py-4 rounded-xl text-xs font-display font-bold uppercase tracking-[0.18em] transition-all duration-300 flex items-center justify-center gap-2 shrink-0 shadow-lg shadow-black/10"
+                className="border border-slate-300 hover:border-slate-400 bg-slate-200/50 hover:bg-slate-200 text-slate-800 hover:scale-[1.02] px-8 py-4 rounded-xl text-xs font-display font-bold uppercase tracking-[0.18em] transition-all duration-300 flex items-center justify-center gap-2 shrink-0 shadow-sm"
               >
-                <Phone className="w-4 h-4 text-white" />
+                <Phone className="w-4 h-4 text-brand-red-500" />
                 <span>CALL NOW</span>
               </a>
             </div>

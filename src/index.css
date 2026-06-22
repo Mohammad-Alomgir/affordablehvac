@@ -6,10 +6,10 @@
   --font-display: "Barlow Condensed", var(--font-sans);
   --font-mono: "JetBrains Mono", ui-monospace, monospace;
 
-  --color-brand-blue-950: #040d1a;
-  --color-brand-blue-900: #061830;
-  --color-brand-blue-800: #102a43;
-  --color-brand-blue-700: #1b365d;
+  --color-brand-blue-950: #0f172a;
+  --color-brand-blue-900: #1e293b;
+  --color-brand-blue-800: #334155;
+  --color-brand-blue-700: #475569;
   --color-brand-red-700: #9e1b21;
   --color-brand-red-650: #c41230;
   --color-brand-red-630: #c41230;

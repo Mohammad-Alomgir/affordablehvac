@@ -28,22 +28,22 @@ export default function EducationPage({ onQuoteClick, onCallClick, onServicesCli
     <div className="select-all font-sans text-neutral-800 bg-white">
       
       {/* 1. HERO HEADER */}
-      <section className="relative bg-[#061830] text-white pt-28 pb-20 sm:pt-36 sm:pb-24 px-4 overflow-hidden text-center">
+      <section className="relative bg-slate-100 text-slate-900 pt-28 pb-20 sm:pt-36 sm:pb-24 px-4 overflow-hidden text-center border-b border-slate-200">
         {/* Radar Concentric Circles matching theme */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none z-0">
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[350px] h-[350px] border border-white/[0.03] border-dashed rounded-full" />
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[550px] h-[550px] border border-white/[0.03] border-dashed rounded-full" />
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[750px] h-[750px] border border-white/[0.03] border-dashed rounded-full" />
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[350px] h-[350px] border border-slate-300/[0.2] border-dashed rounded-full" />
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[550px] h-[550px] border border-slate-300/[0.2] border-dashed rounded-full" />
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[750px] h-[750px] border border-slate-300/[0.2] border-dashed rounded-full" />
         </div>
 
         <div className="max-w-[1200px] mx-auto relative z-10">
           <span className="text-xs font-display font-extrabold tracking-[0.25em] text-[#C41230] uppercase mb-4 block">
             EDUCATION
           </span>
-          <h1 className="font-display font-black text-4xl sm:text-5xl lg:text-[46px] tracking-tight leading-none mb-6">
+          <h1 className="font-display font-black text-4xl sm:text-5xl lg:text-[46px] tracking-tight text-slate-900 leading-none mb-6">
             Understanding <span className="text-[#C41230]">Your HVAC Systems</span>
           </h1>
-          <p className="text-slate-300 text-sm sm:text-base leading-relaxed max-w-2xl mx-auto font-sans">
+          <p className="text-slate-600 text-sm sm:text-base leading-relaxed max-w-2xl mx-auto font-sans">
             Knowledge is comfort. Learn how your heating and cooling systems work, why maintenance matters, and how to protect your investment year-round.
           </p>
         </div>
@@ -60,14 +60,14 @@ export default function EducationPage({ onQuoteClick, onCallClick, onServicesCli
               <div className="w-12 h-12 rounded-xl bg-[#C41230] text-white flex items-center justify-center shadow-md shadow-[#C41230]/10 shrink-0">
                 <Thermometer className="w-6 h-6" />
               </div>
-              <h2 className="font-display font-black text-2xl sm:text-3xl text-[#061830] tracking-tight">
+              <h2 className="font-display font-black text-2xl sm:text-3xl text-slate-900 tracking-tight">
                 Mini Split Systems
               </h2>
             </div>
 
             {/* How They Work paragraph */}
             <div className="space-y-3">
-              <h3 className="font-display font-bold text-base text-[#061830] tracking-tight uppercase">
+              <h3 className="font-display font-bold text-base text-slate-900 tracking-tight uppercase">
                 How They Work
               </h3>
               <p className="text-[#4a5568] text-sm leading-relaxed font-sans">
@@ -77,7 +77,7 @@ export default function EducationPage({ onQuoteClick, onCallClick, onServicesCli
 
             {/* Benefits of Annual Cleaning */}
             <div className="space-y-4">
-              <h3 className="font-display font-bold text-base text-[#061830] tracking-tight uppercase">
+              <h3 className="font-display font-bold text-base text-slate-900 tracking-tight uppercase">
                 Benefits of Annual Cleaning
               </h3>
               <p className="text-[#4a5568] text-sm leading-relaxed font-sans">
@@ -105,7 +105,7 @@ export default function EducationPage({ onQuoteClick, onCallClick, onServicesCli
 
             {/* Signs Your Mini Split Needs Maintenance */}
             <div className="space-y-4">
-              <h3 className="font-display font-bold text-base text-[#061830] tracking-tight uppercase">
+              <h3 className="font-display font-bold text-base text-slate-900 tracking-tight uppercase">
                 Signs Your Mini Split Needs Maintenance
               </h3>
               <ul className="grid gap-3 pl-1">
@@ -136,14 +136,14 @@ export default function EducationPage({ onQuoteClick, onCallClick, onServicesCli
               <div className="w-12 h-12 rounded-xl bg-[#C41230] text-white flex items-center justify-center shadow-md shadow-[#C41230]/10 shrink-0">
                 <Wind className="w-6 h-6" />
               </div>
-              <h2 className="font-display font-black text-2xl sm:text-3xl text-[#061830] tracking-tight">
+              <h2 className="font-display font-black text-2xl sm:text-3xl text-slate-900 tracking-tight">
                 Central Heat Pumps
               </h2>
             </div>
 
             {/* How They Operate paragraph */}
             <div className="space-y-3">
-              <h3 className="font-display font-bold text-base text-[#061830] tracking-tight uppercase">
+              <h3 className="font-display font-bold text-base text-slate-900 tracking-tight uppercase">
                 How They Operate
               </h3>
               <p className="text-[#4a5568] text-sm leading-relaxed font-sans">
@@ -153,7 +153,7 @@ export default function EducationPage({ onQuoteClick, onCallClick, onServicesCli
 
             {/* Importance of Routine Cleaning & Servicing */}
             <div className="space-y-4">
-              <h3 className="font-display font-bold text-base text-[#061830] tracking-tight uppercase">
+              <h3 className="font-display font-bold text-base text-slate-900 tracking-tight uppercase">
                 Importance of Routine Cleaning & Servicing
               </h3>
               <p className="text-[#4a5568] text-sm leading-relaxed font-sans">
@@ -181,7 +181,7 @@ export default function EducationPage({ onQuoteClick, onCallClick, onServicesCli
 
             {/* Energy-Efficiency Benefits */}
             <div className="space-y-3">
-              <h3 className="font-display font-bold text-base text-[#061830] tracking-tight uppercase">
+              <h3 className="font-display font-bold text-base text-slate-900 tracking-tight uppercase">
                 Energy-Efficiency Benefits
               </h3>
               <p className="text-[#4a5568] text-sm leading-relaxed font-sans">
@@ -198,14 +198,14 @@ export default function EducationPage({ onQuoteClick, onCallClick, onServicesCli
               <div className="w-12 h-12 rounded-xl bg-[#C41230] text-white flex items-center justify-center shadow-md shadow-[#C41230]/10 shrink-0">
                 <RefreshCw className="w-6 h-6" />
               </div>
-              <h2 className="font-display font-black text-2xl sm:text-3xl text-[#061830] tracking-tight">
+              <h2 className="font-display font-black text-2xl sm:text-3xl text-slate-900 tracking-tight">
                 Air Exchangers
               </h2>
             </div>
 
             {/* Role in Indoor Air Quality */}
             <div className="space-y-3">
-              <h3 className="font-display font-bold text-base text-[#061830] tracking-tight uppercase">
+              <h3 className="font-display font-bold text-base text-slate-900 tracking-tight uppercase">
                 Their Role in Indoor Air Quality
               </h3>
               <p className="text-[#4a5568] text-sm leading-relaxed font-sans">
@@ -215,7 +215,7 @@ export default function EducationPage({ onQuoteClick, onCallClick, onServicesCli
 
             {/* Importance of Regular Maintenance */}
             <div className="space-y-4">
-              <h3 className="font-display font-bold text-base text-[#061830] tracking-tight uppercase">
+              <h3 className="font-display font-bold text-base text-slate-900 tracking-tight uppercase">
                 Importance of Regular Maintenance
               </h3>
               <p className="text-[#4a5568] text-sm leading-relaxed font-sans">
@@ -250,14 +250,14 @@ export default function EducationPage({ onQuoteClick, onCallClick, onServicesCli
               <div className="w-12 h-12 rounded-xl bg-[#C41230] text-white flex items-center justify-center shadow-md shadow-[#C41230]/10 shrink-0">
                 <Flame className="w-6 h-6" />
               </div>
-              <h2 className="font-display font-black text-2xl sm:text-3xl text-[#061830] tracking-tight">
+              <h2 className="font-display font-black text-2xl sm:text-3xl text-slate-900 tracking-tight">
                 Dryer Vents
               </h2>
             </div>
 
             {/* Fire Prevention Benefits */}
             <div className="space-y-3">
-              <h3 className="font-display font-bold text-base text-[#061830] tracking-tight uppercase">
+              <h3 className="font-display font-bold text-base text-slate-900 tracking-tight uppercase">
                 Fire Prevention Benefits
               </h3>
               <p className="text-[#4a5568] text-sm leading-relaxed font-sans">
@@ -267,7 +267,7 @@ export default function EducationPage({ onQuoteClick, onCallClick, onServicesCli
 
             {/* Improved Dryer Efficiency */}
             <div className="space-y-3">
-              <h3 className="font-display font-bold text-base text-[#061830] tracking-tight uppercase">
+              <h3 className="font-display font-bold text-base text-slate-900 tracking-tight uppercase">
                 Improved Dryer Efficiency
               </h3>
               <p className="text-[#4a5568] text-sm leading-relaxed font-sans">
@@ -277,7 +277,7 @@ export default function EducationPage({ onQuoteClick, onCallClick, onServicesCli
 
             {/* Recommended Cleaning Schedule */}
             <div className="space-y-4">
-              <h3 className="font-display font-bold text-base text-[#061830] tracking-tight uppercase">
+              <h3 className="font-display font-bold text-base text-slate-900 tracking-tight uppercase">
                 Recommended Cleaning Schedule
               </h3>
               <ul className="grid gap-3 pl-1">
@@ -308,7 +308,7 @@ export default function EducationPage({ onQuoteClick, onCallClick, onServicesCli
             <span className="text-xs font-display font-extrabold tracking-[0.25em] text-[#C41230] uppercase block">
               PREVENTATIVE MAINTENANCE
             </span>
-            <h2 className="font-display font-black text-3xl sm:text-4xl text-[#061830] tracking-tight">
+            <h2 className="font-display font-black text-3xl sm:text-4xl text-slate-900 tracking-tight">
               Why Annual Maintenance <span className="text-[#C41230]">Is Essential</span>
             </h2>
             <p className="text-[#4a5568] text-sm sm:text-[15px] leading-relaxed font-sans">
@@ -325,7 +325,7 @@ export default function EducationPage({ onQuoteClick, onCallClick, onServicesCli
                 <div className="w-10 h-10 rounded-lg bg-red-50 text-[#C41230] flex items-center justify-center mb-6">
                   <Sparkles className="w-5 h-5" />
                 </div>
-                <h4 className="font-display font-black text-base text-[#061830] tracking-tight mb-2">
+                <h4 className="font-display font-black text-base text-slate-900 tracking-tight mb-2">
                   Optimize Efficiency
                 </h4>
                 <p className="text-gray-600 text-xs leading-relaxed font-sans">
@@ -340,7 +340,7 @@ export default function EducationPage({ onQuoteClick, onCallClick, onServicesCli
                 <div className="w-10 h-10 rounded-lg bg-red-50 text-[#C41230] flex items-center justify-center mb-6">
                   <Wind className="w-5 h-5" />
                 </div>
-                <h4 className="font-display font-black text-base text-[#061830] tracking-tight mb-2">
+                <h4 className="font-display font-black text-base text-slate-900 tracking-tight mb-2">
                   Improved Indoor Air Quality
                 </h4>
                 <p className="text-gray-600 text-xs leading-relaxed font-sans">
@@ -355,7 +355,7 @@ export default function EducationPage({ onQuoteClick, onCallClick, onServicesCli
                 <div className="w-10 h-10 rounded-lg bg-red-50 text-[#C41230] flex items-center justify-center mb-6">
                   <Clock className="w-5 h-5" />
                 </div>
-                <h4 className="font-display font-black text-base text-[#061830] tracking-tight mb-2">
+                <h4 className="font-display font-black text-base text-slate-900 tracking-tight mb-2">
                   Extended Equipment Life
                 </h4>
                 <p className="text-gray-600 text-xs leading-relaxed font-sans">
@@ -370,7 +370,7 @@ export default function EducationPage({ onQuoteClick, onCallClick, onServicesCli
                 <div className="w-10 h-10 rounded-lg bg-red-50 text-[#C41230] flex items-center justify-center mb-6">
                   <ShieldAlert className="w-5 h-5" />
                 </div>
-                <h4 className="font-display font-black text-base text-[#061830] tracking-tight mb-2">
+                <h4 className="font-display font-black text-base text-slate-900 tracking-tight mb-2">
                   Prevent Costly Breakdowns
                 </h4>
                 <p className="text-gray-600 text-xs leading-relaxed font-sans">
@@ -385,7 +385,7 @@ export default function EducationPage({ onQuoteClick, onCallClick, onServicesCli
                 <div className="w-10 h-10 rounded-lg bg-red-50 text-[#C41230] flex items-center justify-center mb-6">
                   <Lightbulb className="w-5 h-5" />
                 </div>
-                <h4 className="font-display font-black text-base text-[#061830] tracking-tight mb-2">
+                <h4 className="font-display font-black text-base text-slate-900 tracking-tight mb-2">
                   Lower Energy Consumption
                 </h4>
                 <p className="text-gray-600 text-xs leading-relaxed font-sans">
@@ -400,7 +400,7 @@ export default function EducationPage({ onQuoteClick, onCallClick, onServicesCli
                 <div className="w-10 h-10 rounded-lg bg-red-50 text-[#C41230] flex items-center justify-center mb-6">
                   <ShieldCheck className="w-5 h-5" />
                 </div>
-                <h4 className="font-display font-black text-base text-[#061830] tracking-tight mb-2">
+                <h4 className="font-display font-black text-base text-slate-900 tracking-tight mb-2">
                   Protect Your Warranty
                 </h4>
                 <p className="text-gray-600 text-xs leading-relaxed font-sans">
@@ -412,12 +412,12 @@ export default function EducationPage({ onQuoteClick, onCallClick, onServicesCli
           </div>
 
           {/* Hidden Cost skipped warning box */}
-          <div className="max-w-4xl mx-auto rounded-3xl bg-[#061830] text-left text-white p-8 md:p-12 border border-white/5 shadow-2xl relative overflow-hidden">
+          <div className="max-w-4xl mx-auto rounded-3xl bg-slate-100 text-left text-slate-900 p-8 md:p-12 border border-slate-200 shadow-xl relative overflow-hidden">
             <div className="relative z-10 space-y-6">
-              <h3 className="font-display font-black text-xl sm:text-2xl text-center md:text-left text-white tracking-tight leading-tight">
+              <h3 className="font-display font-black text-xl sm:text-2xl text-center md:text-left text-slate-900 tracking-tight leading-tight">
                 The Hidden Cost of Skipping Maintenance
               </h3>
-              <p className="text-slate-300/90 text-sm leading-relaxed font-sans">
+              <p className="text-slate-650 text-sm leading-relaxed font-sans">
                 When maintenance is skipped, HVAC systems lose 5-10% efficiency per year as components get dirty and wear down. A neglected system works harder, uses more energy, breaks down more often, and can fail years earlier than a well-maintained one. The small investment in cleaning and servicing pays for itself many times over in avoided repair costs, lower energy bills, and longer equipment life.
               </p>
               <div className="flex flex-wrap items-center justify-center md:justify-start gap-4 pt-2">
@@ -430,7 +430,7 @@ export default function EducationPage({ onQuoteClick, onCallClick, onServicesCli
                 </button>
                 <button
                   onClick={onServicesClick}
-                  className="bg-transparent hover:bg-white/5 active:scale-[0.98] text-white border-2 border-white/20 hover:border-white/40 px-6 py-3.5 rounded-xl text-xs font-display font-black uppercase tracking-[0.15em] cursor-pointer transition-all duration-200"
+                  className="bg-slate-200/50 hover:bg-slate-200 active:scale-[0.98] text-slate-800 border border-slate-355 px-6 py-3.5 rounded-xl text-xs font-display font-black uppercase tracking-[0.15em] cursor-pointer transition-all duration-200"
                 >
                   VIEW ALL SERVICES
                 </button>
@@ -446,7 +446,7 @@ export default function EducationPage({ onQuoteClick, onCallClick, onServicesCli
       {/* 4. READY TO PROTECT YOUR INVESTMENT CTA HEADER */}
       <section className="py-24 bg-white text-center px-4">
         <div className="max-w-[700px] mx-auto space-y-8">
-          <h2 className="font-display font-black text-3xl sm:text-4xl text-[#061830] tracking-tight">
+          <h2 className="font-display font-black text-3xl sm:text-4xl text-slate-900 tracking-tight">
             Ready to Protect <span className="text-[#C41230]">Your Investment?</span>
           </h2>
           <p className="text-[#4a5568] text-sm sm:text-base leading-relaxed font-sans max-w-xl mx-auto">
@@ -464,9 +464,9 @@ export default function EducationPage({ onQuoteClick, onCallClick, onServicesCli
 
             <a
               href="tel:5062910594"
-              className="border-2 border-[#061830]/85 hover:border-[#061830] bg-[#061830] text-white hover:bg-[#0c2a52] hover:scale-[1.01] active:scale-[0.98] px-8 py-4 rounded-xl text-xs font-display font-bold uppercase tracking-[0.18em] transition-all duration-200 flex items-center justify-center gap-2 shrink-0 cursor-pointer shadow-sm"
+              className="border-2 border-slate-300 hover:border-slate-400 bg-slate-100 text-slate-800 hover:bg-slate-200 hover:scale-[1.01] active:scale-[0.98] px-8 py-4 rounded-xl text-xs font-display font-bold uppercase tracking-[0.18em] transition-all duration-200 flex items-center justify-center gap-2 shrink-0 cursor-pointer shadow-sm"
             >
-              <Phone className="w-4 h-4 text-white" />
+              <Phone className="w-4 h-4 text-brand-red-500" />
               <span>CALL NOW</span>
             </a>
           </div>

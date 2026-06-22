@@ -26,7 +26,7 @@ export default function BeforeAfter() {
           <span className="text-xs font-display font-extrabold tracking-[0.25em] text-[#C41230] uppercase mb-3 block">
             OUR WORK
           </span>
-          <h2 className="font-display font-bold text-4xl sm:text-5xl text-[#061830] tracking-normal leading-[1.12]">
+          <h2 className="font-display font-bold text-4xl sm:text-5xl text-slate-900 tracking-normal leading-[1.12]">
             Real Results, <span className="text-[#C41230]">Real Transformations</span>
           </h2>
           <p className="mt-5 text-[15px] sm:text-[16px] text-[#4a5568] leading-relaxed font-sans max-w-2xl mx-auto">
@@ -81,7 +81,7 @@ export default function BeforeAfter() {
                     style={{ left: `${pos}%` }}
                   >
                     <div className="absolute inset-y-0 -left-[1px] w-[2px] bg-white shadow-2xl" />
-                    <div className="absolute top-1/2 -translate-y-1/2 -left-4 w-8 h-8 rounded-full bg-white text-[#061830] border border-gray-250 shadow-xl flex items-center justify-center pointer-events-none group-hover:scale-110 transition-transform">
+                    <div className="absolute top-1/2 -translate-y-1/2 -left-4 w-8 h-8 rounded-full bg-white text-slate-800 border border-gray-250 shadow-xl flex items-center justify-center pointer-events-none group-hover:scale-110 transition-transform">
                       <ArrowLeftRight className="w-3.5 h-3.5" />
                     </div>
                   </div>
@@ -102,7 +102,7 @@ export default function BeforeAfter() {
                 <div className="p-6 text-left">
                   <div className="flex items-center gap-2 mb-2">
                     <Sparkles className="w-4 h-4 text-[#C41230]" />
-                    <h3 className="font-display font-bold text-[18px] text-[#061830] tracking-tight leading-tight select-all">
+                    <h3 className="font-display font-bold text-[18px] text-slate-900 tracking-tight leading-tight select-all">
                       {item.title}
                     </h3>
                   </div>

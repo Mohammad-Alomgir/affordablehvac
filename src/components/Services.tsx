@@ -138,7 +138,7 @@ export default function Services({ onQuoteClick }: ServicesProps) {
           <span className="text-xs font-display font-extrabold tracking-[0.25em] text-[#C41230] uppercase mb-3 block">
             OUR SERVICES
           </span>
-          <h2 className="font-display font-bold text-4xl sm:text-5xl text-[#061830] tracking-normal leading-[1.12]">
+          <h2 className="font-display font-bold text-4xl sm:text-5xl text-slate-900 tracking-normal leading-[1.12]">
             Quality HVAC Solutions <span className="text-[#C41230]">For Your Home</span>
           </h2>
           <p className="mt-5 text-[15px] sm:text-[16px] text-[#4a5568] font-sans leading-relaxed max-w-2xl mx-auto">
@@ -164,7 +164,7 @@ export default function Services({ onQuoteClick }: ServicesProps) {
                   <div className="mb-5 text-[#C41230] transition-transform duration-300 group-hover:scale-105">
                     <Icon className="w-8 h-8 stroke-[1.75]" />
                   </div>
-                  <h3 className="font-display font-bold text-[18px] text-[#061830] mb-2 tracking-wide leading-tight">
+                  <h3 className="font-display font-bold text-[18px] text-slate-900 mb-2 tracking-wide leading-tight">
                     {service.title}
                   </h3>
                   <p className="text-[13px] text-[#4a5568] leading-relaxed mb-6 font-sans">
@@ -188,7 +188,7 @@ export default function Services({ onQuoteClick }: ServicesProps) {
         <div className="mt-16 text-center">
           <button
             onClick={onQuoteClick}
-            className="inline-flex items-center justify-center gap-2.5 bg-[#061830] hover:bg-[#0c2547] hover:scale-[1.02] active:scale-[0.98] transition-all duration-200 text-white font-display text-xs font-bold uppercase tracking-[0.2em] px-10 py-4 rounded-xl cursor-pointer shadow-lg shadow-[#061830]/12"
+            className="inline-flex items-center justify-center gap-2.5 bg-slate-100 hover:bg-slate-200 border border-slate-300 hover:scale-[1.02] active:scale-[0.98] transition-all duration-200 text-slate-800 font-display text-xs font-bold uppercase tracking-[0.2em] px-10 py-4 rounded-xl cursor-pointer shadow-md"
           >
             <span>VIEW ALL SERVICES</span>
             <span className="text-sm font-sans">→</span>

@@ -69,7 +69,7 @@ export default function WhyChooseUs() {
           <span className="text-xs font-display font-extrabold tracking-[0.25em] text-[#C41230] uppercase">
             WHY CHOOSE US
           </span>
-          <h2 className="font-display font-bold text-4xl sm:text-5xl text-[#061830] mt-3 tracking-normal leading-[1.12]">
+          <h2 className="font-display font-bold text-4xl sm:text-5xl text-slate-900 mt-3 tracking-normal leading-[1.12]">
             Why Choose <span className="text-[#C41230]">E&A Affordable</span> HVAC<br />Services
           </h2>
           <p className="mt-5 text-[15px] sm:text-[16px] text-[#4a5568] font-sans leading-relaxed max-w-2xl mx-auto">
@@ -108,7 +108,7 @@ export default function WhyChooseUs() {
                 </div>
 
                 {/* Content */}
-                <h3 className="font-display font-bold text-xl text-[#061830] mb-3 tracking-wide">
+                <h3 className="font-display font-bold text-xl text-slate-900 mb-3 tracking-wide">
                   {item.title}
                 </h3>
                 <p className="text-sm text-[#4a5568] font-sans leading-relaxed">

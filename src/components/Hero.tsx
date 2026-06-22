@@ -35,22 +35,22 @@ export default function Hero({ onCtas }: HeroProps) {
   ];
 
   return (
-    <div id="hero" className="relative min-h-[90vh] bg-brand-blue-900 overflow-hidden flex items-center pt-24 pb-16 lg:py-32">
+    <div id="hero" className="relative min-h-[90vh] bg-slate-100 overflow-hidden flex items-center pt-24 pb-16 lg:py-32">
       {/* 
         Technician Background Graphic on Right Side
-        Blends seamlessly into the dark navy background
+        Blends seamlessly into the light gray background
       */}
       <div className="absolute inset-0 z-0 flex justify-end">
         <div className="relative w-full lg:w-3/5 h-full">
           <img
             src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=1200&q=80"
             alt="Smiling HVAC Professional"
-            className="w-full h-full object-cover object-center lg:object-left-top opacity-30 lg:opacity-40 select-none pointer-events-none"
+            className="w-full h-full object-cover object-center lg:object-left-top opacity-[0.15] select-none pointer-events-none"
             referrerPolicy="no-referrer"
           />
-          {/* Gradients blending with background and giving exact screenshot feel */}
-          <div className="absolute inset-y-0 left-0 w-full lg:w-2/3 bg-gradient-to-r from-brand-blue-900 via-brand-blue-900/80 to-transparent pointer-events-none" />
-          <div className="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-brand-blue-900 to-transparent pointer-events-none" />
+          {/* Gradients blending with background and giving exact premium feel */}
+          <div className="absolute inset-y-0 left-0 w-full lg:w-2/3 bg-gradient-to-r from-slate-100 via-slate-100/90 to-transparent pointer-events-none" />
+          <div className="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-slate-100 to-transparent pointer-events-none" />
         </div>
       </div>
 
@@ -77,7 +77,7 @@ export default function Hero({ onCtas }: HeroProps) {
             {/* Headline with exact break points and high-impact emphasis */}
             <motion.h1
               variants={itemVariants}
-              className="font-display font-black text-4xl sm:text-5xl lg:text-[56px] text-white leading-tight sm:leading-[1.1] tracking-tight max-w-3xl"
+              className="font-display font-black text-4xl sm:text-5xl lg:text-[56px] text-slate-900 leading-tight sm:leading-[1.1] tracking-tight max-w-3xl"
             >
               Affordable HVAC Solutions <br className="hidden sm:inline" />
               Built on <span className="text-brand-red-500 font-black">Faith, Integrity</span> & <br className="hidden sm:inline" />
@@ -87,7 +87,7 @@ export default function Hero({ onCtas }: HeroProps) {
             {/* Support Copy */}
             <motion.p
               variants={itemVariants}
-              className="mt-6 text-sm sm:text-base text-gray-300 leading-relaxed max-w-2xl font-sans"
+              className="mt-6 text-sm sm:text-base text-slate-650 leading-relaxed max-w-2xl font-sans"
             >
               Serving Riverview, Moncton, Dieppe, and surrounding New Brunswick communities with professional HVAC installation, annual cleaning, maintenance, and 24/7 emergency repair — quality service at an affordable price.
             </motion.p>
@@ -108,18 +108,18 @@ export default function Hero({ onCtas }: HeroProps) {
               {/* SECONDARY WORK LINK */}
               <button
                 onClick={() => onCtas("gallery")}
-                className="w-full sm:w-auto bg-transparent hover:bg-white/5 border border-white/20 hover:border-white/40 px-6 py-3.5 rounded-lg text-xs font-extrabold tracking-widest uppercase font-display cursor-pointer transition-all text-white flex items-center justify-center gap-1.5"
+                className="w-full sm:w-auto bg-slate-200/50 hover:bg-slate-200/80 border border-slate-300 px-6 py-3.5 rounded-lg text-xs font-extrabold tracking-widest uppercase font-display cursor-pointer transition-all text-slate-800 flex items-center justify-center gap-1.5"
               >
                 <span>View Our Work</span>
-                <span className="text-neutral-400">→</span>
+                <span className="text-slate-500">→</span>
               </button>
 
               {/* PHONE ACT */}
               <a
                 href="tel:5062910594"
-                className="w-full sm:w-auto bg-transparent hover:bg-white/5 border border-white/20 hover:border-white/40 px-6 py-3.5 rounded-lg text-xs font-extrabold tracking-widest uppercase font-display cursor-pointer transition-all text-white flex items-center justify-center gap-2"
+                className="w-full sm:w-auto bg-slate-200/50 hover:bg-slate-200/80 border border-slate-300 px-6 py-3.5 rounded-lg text-xs font-extrabold tracking-widest uppercase font-display cursor-pointer transition-all text-slate-800 flex items-center justify-center gap-2"
               >
-                <Phone className="w-3.5 h-3.5 text-neutral-400" />
+                <Phone className="w-3.5 h-3.5 text-slate-500" />
                 <span>Call Now</span>
               </a>
             </motion.div>
@@ -127,12 +127,12 @@ export default function Hero({ onCtas }: HeroProps) {
             {/* Horizontal Trust Badges matching mockup style */}
             <motion.div
               variants={itemVariants}
-              className="mt-14 pt-8 border-t border-white/10 flex flex-wrap items-center gap-y-4 gap-x-6 w-full"
+              className="mt-14 pt-8 border-t border-slate-200 flex flex-wrap items-center gap-y-4 gap-x-6 w-full"
             >
               {trustBadges.map((badge, idx) => {
                 const Icon = badge.icon;
                 return (
-                  <div key={idx} className="flex items-center gap-2 text-gray-300">
+                  <div key={idx} className="flex items-center gap-2 text-slate-600">
                     <Icon className="w-4 h-4 text-brand-red-500 shrink-0" />
                     <span className="text-xs font-medium tracking-wide font-sans">{badge.label}</span>
                   </div>

@@ -32,7 +32,7 @@ export default function Testimonials({ onViewAllClick }: TestimonialsProps) {
           <span className="text-xs uppercase font-extrabold tracking-widest text-brand-red-600 font-mono">
             TESTIMONIALS
           </span>
-          <h2 className="font-display font-black text-3xl sm:text-4xl text-brand-blue-900 mt-2 tracking-tight">
+          <h2 className="font-display font-black text-3xl sm:text-4xl text-slate-900 mt-2 tracking-tight">
             What Our <span className="text-brand-red-650">Customers</span> Are Saying
           </h2>
           <div className="w-16 h-1 bg-brand-red-500 mx-auto mt-4 rounded-full" />
@@ -78,7 +78,7 @@ export default function Testimonials({ onViewAllClick }: TestimonialsProps) {
                   </div>
                   <div>
                     <div className="flex items-center gap-1.5">
-                      <h4 className="font-display font-black text-xs text-brand-blue-900 leading-none">
+                      <h4 className="font-display font-black text-xs text-slate-900 leading-none">
                         {review.name}
                       </h4>
                       <span className="inline-flex items-center justify-center bg-[#1877F2]/10 p-0.5 rounded-full" title="Verified Facebook recommender">
@@ -101,7 +101,7 @@ export default function Testimonials({ onViewAllClick }: TestimonialsProps) {
         <div className="mt-12 text-center">
           <button
             onClick={onViewAllClick}
-            className="inline-flex items-center justify-center gap-2 bg-brand-blue-900 hover:bg-brand-blue-800 transition-all text-white font-display text-xs font-bold uppercase tracking-widest px-8 py-3.5 rounded-xl cursor-pointer hover:shadow-lg shadow-sm active:scale-95"
+            className="inline-flex items-center justify-center gap-2 bg-slate-100 hover:bg-slate-200 border border-slate-300 transition-all text-slate-800 font-display text-xs font-bold uppercase tracking-widest px-8 py-3.5 rounded-xl cursor-pointer hover:shadow-lg shadow-sm active:scale-95"
           >
             <span>View All Reviews</span>
             <ArrowRight className="w-4 h-4 text-brand-red-650" />

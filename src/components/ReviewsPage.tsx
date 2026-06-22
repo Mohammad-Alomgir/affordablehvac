@@ -134,20 +134,20 @@ export default function ReviewsPage({ onQuoteClick, onCallClick }: ReviewsPagePr
     <div className="select-all font-sans text-neutral-800 bg-[#F8F9FA]">
       
       {/* HERO SECTION */}
-      <section className="relative bg-[#061830] text-white pt-28 pb-20 sm:pt-36 sm:pb-24 px-4 overflow-hidden text-center">
+      <section className="relative bg-slate-100 text-slate-900 pt-28 pb-20 sm:pt-36 sm:pb-24 px-4 overflow-hidden text-center border-b border-slate-200">
         <div className="absolute inset-0 overflow-hidden pointer-events-none z-0">
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[350px] h-[350px] border border-white/[0.03] border-dashed rounded-full" />
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[550px] h-[550px] border border-white/[0.03] border-dashed rounded-full" />
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[350px] h-[350px] border border-slate-300/[0.2] border-dashed rounded-full" />
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[550px] h-[550px] border border-slate-300/[0.2] border-dashed rounded-full" />
         </div>
 
         <div className="max-w-[1200px] mx-auto relative z-10">
           <span className="text-xs font-display font-extrabold tracking-[0.25em] text-[#C41230] uppercase mb-4 block">
             SOCIAL PROOF
           </span>
-          <h1 className="font-display font-black text-4xl sm:text-5xl lg:text-[46px] tracking-tight leading-none mb-6">
+          <h1 className="font-display font-black text-4xl sm:text-5xl lg:text-[46px] text-slate-900 tracking-tight leading-none mb-6">
             Customer <span className="text-[#C41230]">Reviews</span>
           </h1>
-          <p className="text-slate-300 text-sm sm:text-base leading-relaxed max-w-2xl mx-auto font-sans">
+          <p className="text-slate-600 text-sm sm:text-base leading-relaxed max-w-2xl mx-auto font-sans">
             Hear directly from your neighbors across New Brunswick. We take immense pride in our commitment to honest work, affordable pricing, and pristine completions.
           </p>
         </div>
@@ -162,18 +162,18 @@ export default function ReviewsPage({ onQuoteClick, onCallClick }: ReviewsPagePr
                 <Star key={i} className="w-4 h-4 fill-current stroke-[3]" />
               ))}
             </div>
-            <div className="text-xl font-display font-black text-[#061830]">5.0 Rating</div>
+            <div className="text-xl font-display font-black text-slate-900">5.0 Rating</div>
             <div className="text-[10px] uppercase tracking-wider text-slate-500 font-bold mt-1">On Facebook Reviews</div>
           </div>
 
           <div className="p-4 rounded-xl bg-slate-50 border border-slate-100">
-            <div className="text-xl font-display font-black text-[#061830] mb-1">100%</div>
+            <div className="text-xl font-display font-black text-slate-900 mb-1">100%</div>
             <div className="text-[10px] uppercase tracking-wider text-slate-500 font-bold">Recommendation Rate</div>
             <div className="text-[10px] text-emerald-650 font-bold mt-1">Based on Facebook Activity</div>
           </div>
 
           <div className="p-4 rounded-xl bg-slate-50 border border-slate-100">
-            <div className="text-xl font-display font-black text-[#061830] mb-1">20+</div>
+            <div className="text-xl font-display font-black text-slate-900 mb-1">20+</div>
             <div className="text-[10px] uppercase tracking-wider text-slate-500 font-bold">Verifiable Comments</div>
             <div className="text-[10px] text-slate-500 mt-1">Direct Client Testimonials</div>
           </div>
@@ -218,12 +218,12 @@ export default function ReviewsPage({ onQuoteClick, onCallClick }: ReviewsPagePr
 
                   {/* Customer author section */}
                   <div className="flex items-center gap-3.5 pt-4 border-t border-gray-100 relative z-10">
-                    <div className="w-10 h-10 rounded-full bg-gradient-to-tr from-[#061830] to-[#123157] text-white flex items-center justify-center font-display font-black text-xs shadow-inner">
+                    <div className="w-10 h-10 rounded-full bg-gradient-to-tr from-slate-700 to-slate-900 text-white flex items-center justify-center font-display font-black text-xs shadow-inner">
                       {initials}
                     </div>
                     <div className="min-w-0 flex-1">
                       <div className="flex items-center gap-1.5">
-                        <h4 className="font-display font-black text-xs text-[#061830] truncate">
+                        <h4 className="font-display font-black text-xs text-slate-900 truncate">
                           {item.name}
                         </h4>
                         {/* Verified Blue Badge similar to Facebook style */}
@@ -259,7 +259,7 @@ export default function ReviewsPage({ onQuoteClick, onCallClick }: ReviewsPagePr
           <span className="text-xs font-display font-extrabold tracking-[0.25em] text-[#C41230] uppercase mb-4 block">
             RESERVE YOUR SERVICE
           </span>
-          <h2 className="font-display font-black text-3xl sm:text-4xl text-[#061830] tracking-tight mb-4">
+          <h2 className="font-display font-black text-3xl sm:text-4xl text-slate-900 tracking-tight mb-4">
             Be Our Next <span className="text-[#C41230]">Happy Customer</span>
           </h2>
           <p className="text-[#4a5568] text-sm sm:text-base leading-relaxed max-w-2xl mx-auto font-sans mb-10">
@@ -277,9 +277,9 @@ export default function ReviewsPage({ onQuoteClick, onCallClick }: ReviewsPagePr
 
             <a
               href="tel:5062910594"
-              className="border-2 border-[#061830]/80 hover:border-[#061830] bg-white hover:bg-[#061830]/5 text-[#061830] hover:scale-[1.01] active:scale-[0.98] px-8 py-4 rounded-xl text-xs font-display font-bold uppercase tracking-[0.18em] transition-all duration-200 flex items-center justify-center gap-2 shrink-0 cursor-pointer shadow-sm"
+              className="border-2 border-slate-300 hover:border-slate-400 bg-slate-100 text-slate-800 hover:scale-[1.01] active:scale-[0.98] px-8 py-4 rounded-xl text-xs font-display font-bold uppercase tracking-[0.18em] transition-all duration-200 flex items-center justify-center gap-2 shrink-0 cursor-pointer shadow-sm"
             >
-              <Phone className="w-4 h-4 text-[#061830]" />
+              <Phone className="w-4 h-4 text-brand-red-500" />
               <span>CALL NOW</span>
             </a>
           </div>

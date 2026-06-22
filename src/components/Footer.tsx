@@ -40,15 +40,15 @@ export default function Footer({ onNavigate }: FooterProps) {
   ];
 
   return (
-    <footer className="bg-[#041122] text-white font-sans select-all border-t border-white/5">
+    <footer className="bg-slate-50 text-slate-800 font-sans select-all border-t border-slate-200">
       {/* Top Black Bar Banner */}
-      <div className="bg-[#030c18] border-b border-white/5 py-10 px-4 sm:px-6 lg:px-8">
+      <div className="bg-slate-100 border-b border-slate-200 py-10 px-4 sm:px-6 lg:px-8">
         <div className="max-w-[1200px] mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="text-center md:text-left">
-            <h3 className="font-display font-black text-xl sm:text-2xl text-white tracking-normal leading-tight">
+            <h3 className="font-display font-black text-xl sm:text-2xl text-slate-900 tracking-normal leading-tight">
               Ready to Get Comfortable?
             </h3>
-            <p className="text-xs sm:text-[14px] text-slate-400 font-sans mt-1">
+            <p className="text-xs sm:text-[14px] text-slate-500 font-sans mt-1">
               Free estimates — no obligation. Response within 24 hours.
             </p>
           </div>
@@ -92,13 +92,13 @@ export default function Footer({ onNavigate }: FooterProps) {
                   <span className="text-xl font-black mr-1" style={{ color: "#3b82f6" }}>E&amp;A</span>
                   <span className="text-xl font-black text-[#C41230]">AFFORDABLE</span>
                 </div>
-                <div className="text-[9px] uppercase tracking-widest text-[#a1a1aa] font-black leading-none mt-1 font-sans">
+                <div className="text-[9px] uppercase tracking-widest text-slate-500 font-black leading-none mt-1 font-sans">
                   HVAC SERVICES
                 </div>
               </div>
             </button>
 
-            <p className="text-xs sm:text-[13px] text-slate-400 leading-relaxed font-sans max-w-sm mb-6">
+            <p className="text-xs sm:text-[13px] text-slate-600 leading-relaxed font-sans max-w-sm mb-6">
               Christian-owned HVAC company serving Riverview, Moncton, Dieppe, and surrounding New Brunswick
               communities with honest, affordable heating and cooling solutions.
             </p>
@@ -107,7 +107,7 @@ export default function Footer({ onNavigate }: FooterProps) {
             <div className="space-y-4">
               <a
                 href="tel:5062910594"
-                className="flex items-center gap-3 text-xs sm:text-[13px] text-slate-300 hover:text-[#C41230] transition-colors"
+                className="flex items-center gap-3 text-xs sm:text-[13px] text-slate-700 hover:text-[#C41230] transition-colors"
                 aria-label="Call E&A Affordable HVAC"
               >
                 <Phone className="w-4 h-4 text-[#C41230] shrink-0" />
@@ -116,14 +116,14 @@ export default function Footer({ onNavigate }: FooterProps) {
 
               <a
                 href="mailto:anthonycasto1@gmail.com"
-                className="flex items-center gap-3 text-xs sm:text-[13px] text-slate-300 hover:text-[#C41230] transition-colors"
+                className="flex items-center gap-3 text-xs sm:text-[13px] text-slate-700 hover:text-[#C41230] transition-colors"
                 aria-label="Email E&A Affordable HVAC"
               >
                 <Mail className="w-4 h-4 text-[#C41230] shrink-0" />
                 <span className="font-sans">anthonycasto1@gmail.com</span>
               </a>
 
-              <div className="flex items-center gap-3 text-xs sm:text-[13px] text-slate-300">
+              <div className="flex items-center gap-3 text-xs sm:text-[13px] text-slate-700">
                 <MapPin className="w-4 h-4 text-[#C41230] shrink-0" />
                 <span className="font-sans">Riverview, New Brunswick</span>
               </div>
@@ -132,15 +132,15 @@ export default function Footer({ onNavigate }: FooterProps) {
 
           {/* Column 2 Services Link list */}
           <div className="lg:col-span-3 lg:col-start-6 flex flex-col items-start text-left">
-            <h4 className="font-display font-bold text-base uppercase tracking-widest text-white mb-6">
+            <h4 className="font-display font-bold text-base uppercase tracking-widest text-slate-900 mb-6">
               Services
             </h4>
             <ul className="space-y-3 w-full">
-              {servicesLinks.map((link, idx) => (
+               {servicesLinks.map((link, idx) => (
                 <li key={idx}>
                   <button
                     onClick={() => handleNavClick(link.id)}
-                    className="text-xs sm:text-[13px] text-slate-400 hover:text-white cursor-pointer transition-colors text-left"
+                    className="text-xs sm:text-[13px] text-slate-600 hover:text-[#C41230] cursor-pointer transition-colors text-left"
                   >
                     {link.name}
                   </button>
@@ -159,7 +159,7 @@ export default function Footer({ onNavigate }: FooterProps) {
 
           {/* Column 3 Company Link list */}
           <div className="lg:col-span-2 flex flex-col items-start text-left">
-            <h4 className="font-display font-bold text-base uppercase tracking-widest text-white mb-6">
+            <h4 className="font-display font-bold text-base uppercase tracking-widest text-slate-900 mb-6">
               Company
             </h4>
             <ul className="space-y-3 w-full">
@@ -167,7 +167,7 @@ export default function Footer({ onNavigate }: FooterProps) {
                 <li key={idx}>
                   <button
                     onClick={() => handleNavClick(link.id)}
-                    className="text-xs sm:text-[13px] text-slate-400 hover:text-white cursor-pointer transition-colors text-left"
+                    className="text-xs sm:text-[13px] text-slate-600 hover:text-[#C41230] cursor-pointer transition-colors text-left"
                   >
                     {link.name}
                   </button>
@@ -178,7 +178,7 @@ export default function Footer({ onNavigate }: FooterProps) {
 
           {/* Column 4: Service locations & Social links */}
           <div className="lg:col-span-2 flex flex-col items-start text-left">
-            <h4 className="font-display font-bold text-base uppercase tracking-widest text-white mb-6">
+            <h4 className="font-display font-bold text-base uppercase tracking-widest text-slate-900 mb-6">
               Service Areas
             </h4>
             <ul className="space-y-3 w-full mb-7">
@@ -186,7 +186,7 @@ export default function Footer({ onNavigate }: FooterProps) {
                 <li key={idx}>
                   <button
                     onClick={() => handleNavClick(link.id)}
-                    className="text-xs sm:text-[13px] text-slate-400 hover:text-white cursor-pointer transition-colors text-left"
+                    className="text-xs sm:text-[13px] text-slate-600 hover:text-[#C41230] cursor-pointer transition-colors text-left"
                   >
                     {link.name}
                   </button>
@@ -199,7 +199,7 @@ export default function Footer({ onNavigate }: FooterProps) {
               href="https://www.facebook.com/profile.php?id=61582071851342"
               target="_blank"
               rel="noopener noreferrer"
-              className="w-10 h-10 rounded-xl bg-[#132338] hover:bg-[#C41230] text-slate-300 hover:text-white flex items-center justify-center transition-all duration-350 cursor-pointer shadow-sm"
+              className="w-10 h-10 rounded-xl bg-slate-200 hover:bg-[#C41230] text-slate-600 hover:text-white flex items-center justify-center transition-all duration-350 cursor-pointer shadow-sm"
               aria-label="Connect with E&A on Facebook"
             >
               <Facebook className="w-5 h-5 fill-current stroke-none" />
@@ -208,7 +208,7 @@ export default function Footer({ onNavigate }: FooterProps) {
         </div>
 
         {/* Bottom copyright bars split */}
-        <div className="mt-16 pt-8 border-t border-white/5 text-[12px] text-slate-400 flex flex-col lg:flex-row items-center justify-between gap-6">
+        <div className="mt-16 pt-8 border-t border-slate-200 text-[12px] text-slate-500 flex flex-col lg:flex-row items-center justify-between gap-6">
           <p className="text-center lg:text-left font-sans">
             © 2026 E&A Affordable HVAC Services. All rights reserved.
           </p>
@@ -219,19 +219,19 @@ export default function Footer({ onNavigate }: FooterProps) {
               href="https://www.linkedin.com/in/alomgirwd/"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 group text-slate-400 hover:text-white transition-colors"
+              className="inline-flex items-center gap-2 group text-slate-500 hover:text-[#C41230] transition-colors"
             >
               {/* Custom refined round creator emblem */}
-              <div className="w-5 h-5 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-slate-300 group-hover:bg-[#C41230] group-hover:border-[#C41230] group-hover:text-white transition-all text-[9px] font-bold font-display tracking-tight shrink-0">
+              <div className="w-5 h-5 rounded-full bg-slate-200 border border-slate-300 flex items-center justify-center text-slate-800 group-hover:bg-[#C41230] group-hover:border-[#C41230] group-hover:text-white transition-all text-[9px] font-bold font-display tracking-tight shrink-0">
                 MA
               </div>
               <span className="font-sans text-[12px]">
-                Website Created by <span className="font-bold text-white transition-colors group-hover:text-[#C41230]">Mohammad Alomgir</span>
+                Website Created by <span className="font-bold text-slate-700 transition-colors group-hover:text-[#C41230]">Mohammad Alomgir</span>
               </span>
             </a>
           </div>
 
-          <p className="flex items-center justify-center text-center font-sans">
+          <p className="flex items-center justify-center text-center font-sans text-slate-600">
             <span className="text-[#C41230] mr-1.5 text-base leading-none">✦</span>
             <span>Christian-Owned & Operated — Serving New Brunswick with Faith, Integrity & Quality</span>
           </p>

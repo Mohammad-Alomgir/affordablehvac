@@ -41,7 +41,7 @@ export default function Maintenance({ onCtas }: MaintenanceProps) {
             <span className="text-xs font-display font-extrabold tracking-[0.25em] text-[#C41230] uppercase mb-3 block">
               ANNUAL MAINTENANCE
             </span>
-            <h2 className="font-display font-bold text-4xl sm:text-5xl text-[#061830] tracking-normal leading-[1.12] mb-6">
+            <h2 className="font-display font-bold text-4xl sm:text-5xl text-slate-900 tracking-normal leading-[1.12] mb-6">
               Protect Your Investment With <br />
               <span className="text-[#C41230]">Preventative Care</span>
             </h2>
@@ -74,7 +74,7 @@ export default function Maintenance({ onCtas }: MaintenanceProps) {
 
               <button
                 onClick={() => onCtas("more")}
-                className="bg-transparent border border-gray-300 hover:border-gray-400 text-[#061830] hover:bg-black/5 px-8 py-4 rounded-xl text-xs font-display font-bold tracking-[0.18em] uppercase cursor-pointer transition-all flex items-center justify-center shrink-0"
+                className="bg-transparent border border-slate-300 hover:border-slate-400 text-slate-800 hover:bg-slate-50 px-8 py-4 rounded-xl text-xs font-display font-bold tracking-[0.18em] uppercase cursor-pointer transition-all flex items-center justify-center shrink-0"
               >
                 LEARN MORE
               </button>
@@ -85,7 +85,7 @@ export default function Maintenance({ onCtas }: MaintenanceProps) {
           <div className="lg:col-span-5">
             <div className="bg-white rounded-3xl p-8 sm:p-10 border border-gray-100 shadow-[0_15px_50px_rgba(0,0,0,0.03)] relative overflow-hidden">
               
-              <h3 className="font-display font-bold text-xl text-[#061830] text-center mb-8 tracking-wide">
+              <h3 className="font-display font-bold text-xl text-slate-900 text-center mb-8 tracking-wide">
                 What We Recommend Annually
               </h3>
 
@@ -98,7 +98,7 @@ export default function Maintenance({ onCtas }: MaintenanceProps) {
                   >
                     <CheckCircle2 className="w-5 h-5 text-[#C41230] shrink-0" />
                     <div>
-                      <h4 className="font-display font-bold text-[16px] text-[#061830] leading-tight">
+                      <h4 className="font-display font-bold text-[16px] text-slate-900 leading-tight">
                         {rec.title}
                       </h4>
                       <p className="text-[12px] text-[#718096] font-sans mt-0.5 leading-tight">

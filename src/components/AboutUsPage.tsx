@@ -18,22 +18,22 @@ export default function AboutUsPage({ onQuoteClick, onCallClick }: AboutUsPagePr
     <div className="select-all font-sans text-neutral-800 bg-[#F8F9FA]">
       
       {/* 1. HERO HEADER */}
-      <section className="relative bg-[#061830] text-white pt-28 pb-20 sm:pt-36 sm:pb-24 px-4 overflow-hidden text-center">
+      <section className="relative bg-slate-100 text-slate-950 border-b border-slate-200 pt-28 pb-20 sm:pt-36 sm:pb-24 px-4 overflow-hidden text-center animate-fade-in">
         {/* Radar Concentric Circles matching theme */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none z-0">
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[350px] h-[350px] border border-white/[0.03] border-dashed rounded-full" />
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[550px] h-[550px] border border-white/[0.03] border-dashed rounded-full" />
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[750px] h-[750px] border border-white/[0.03] border-dashed rounded-full" />
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[350px] h-[350px] border border-slate-200 border-dashed rounded-full" />
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[550px] h-[550px] border border-slate-200 border-dashed rounded-full" />
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[750px] h-[750px] border border-slate-200 border-dashed rounded-full" />
         </div>
 
         <div className="max-w-[1200px] mx-auto relative z-10">
           <span className="text-xs font-display font-extrabold tracking-[0.25em] text-[#C41230] uppercase mb-4 block">
             ABOUT US
           </span>
-          <h1 className="font-display font-bold text-4xl sm:text-5xl lg:text-6xl tracking-tight leading-[1.15] mb-6 max-w-4xl mx-auto">
+          <h1 className="font-display font-bold text-4xl sm:text-5xl lg:text-6xl tracking-tight leading-[1.15] mb-6 max-w-4xl mx-auto text-slate-950">
             A Company Built on <span className="text-[#C41230]">Faith, Integrity</span> & Family
           </h1>
-          <p className="text-slate-300 text-sm sm:text-base md:text-lg leading-relaxed max-w-2xl mx-auto font-sans">
+          <p className="text-slate-650 text-sm sm:text-base md:text-lg leading-relaxed max-w-2xl mx-auto font-sans">
             We're more than an HVAC company — we're your neighbors, committed to keeping New Brunswick families comfortable with honest work and fair prices.
           </p>
         </div>
@@ -49,7 +49,7 @@ export default function AboutUsPage({ onQuoteClick, onCallClick }: AboutUsPagePr
               <span className="text-xs font-display font-extrabold tracking-[0.25em] text-[#C41230] uppercase mb-3 block">
                 OUR STORY
               </span>
-              <h2 className="font-display font-bold text-3xl sm:text-4xl text-[#061830] tracking-normal mb-6">
+              <h2 className="font-display font-bold text-3xl sm:text-4xl text-slate-900 tracking-normal mb-6">
                 Family-Owned & <span className="text-[#C41230]">Locally Rooted</span>
               </h2>
               <div className="space-y-5 text-sm sm:text-[15px] text-[#4a5568] leading-relaxed font-sans">
@@ -128,7 +128,7 @@ export default function AboutUsPage({ onQuoteClick, onCallClick }: AboutUsPagePr
           <span className="text-xs font-display font-extrabold tracking-[0.25em] text-[#C41230] uppercase mb-3 block">
             OUR VALUES
           </span>
-          <h2 className="font-display font-bold text-3xl sm:text-4xl text-[#061830] tracking-normal mb-12">
+          <h2 className="font-display font-bold text-3xl sm:text-4xl text-slate-900 tracking-normal mb-12">
             What We Stand For
           </h2>
 
@@ -139,7 +139,7 @@ export default function AboutUsPage({ onQuoteClick, onCallClick }: AboutUsPagePr
               <div className="w-12 h-12 bg-[#C41230]/5 text-[#C41230] rounded-full flex items-center justify-center mb-5 shrink-0">
                 <Heart className="w-5 h-5 fill-current" />
               </div>
-              <h3 className="font-display font-bold text-lg text-[#061830] mb-3">
+              <h3 className="font-display font-bold text-lg text-slate-900 mb-3">
                 Faith in Action
               </h3>
               <p className="text-xs sm:text-sm text-[#4a5568] leading-relaxed font-sans">
@@ -152,7 +152,7 @@ export default function AboutUsPage({ onQuoteClick, onCallClick }: AboutUsPagePr
               <div className="w-12 h-12 bg-[#C41230]/5 text-[#C41230] rounded-full flex items-center justify-center mb-5 shrink-0">
                 <ShieldCheck className="w-5 h-5" />
               </div>
-              <h3 className="font-display font-bold text-lg text-[#061830] mb-3">
+              <h3 className="font-display font-bold text-lg text-slate-900 mb-3">
                 Integrity First
               </h3>
               <p className="text-xs sm:text-sm text-[#4a5568] leading-relaxed font-sans">
@@ -162,10 +162,10 @@ export default function AboutUsPage({ onQuoteClick, onCallClick }: AboutUsPagePr
 
             {/* Value card 3 */}
             <div className="bg-white rounded-2xl border border-gray-150 p-6 flex flex-col items-center hover:shadow-md transition-shadow">
-              <div className="w-12 h-12 bg-[#C41230]/5 text-[#C41230] rounded-full flex items-center justify-center mb-5 shrink-0">
+              <div className="w-12 h-12 bg-[#C41230]/20 text-[#C41230] rounded-full flex items-center justify-center mb-5 shrink-0">
                 <Users className="w-5 h-5 shrink-0" />
               </div>
-              <h3 className="font-display font-bold text-lg text-[#061830] mb-3">
+              <h3 className="font-display font-bold text-lg text-slate-900 mb-3">
                 Family Focus
               </h3>
               <p className="text-xs sm:text-sm text-[#4a5568] leading-relaxed font-sans">
@@ -175,10 +175,10 @@ export default function AboutUsPage({ onQuoteClick, onCallClick }: AboutUsPagePr
 
             {/* Value card 4 */}
             <div className="bg-white rounded-2xl border border-gray-150 p-6 flex flex-col items-center hover:shadow-md transition-shadow">
-              <div className="w-12 h-12 bg-[#C41230]/5 text-[#C41230] rounded-full flex items-center justify-center mb-5 shrink-0">
+              <div className="w-12 h-12 bg-[#C41230]/20 text-[#C41230] rounded-full flex items-center justify-center mb-5 shrink-0">
                 <MapPin className="w-5 h-5 shrink-0" />
               </div>
-              <h3 className="font-display font-bold text-lg text-[#061830] mb-3">
+              <h3 className="font-display font-bold text-lg text-slate-900 mb-3">
                 Community Commitment
               </h3>
               <p className="text-xs sm:text-sm text-[#4a5568] leading-relaxed font-sans">
@@ -199,7 +199,7 @@ export default function AboutUsPage({ onQuoteClick, onCallClick }: AboutUsPagePr
           
           <div className="relative inline-block mb-8">
             <Quote className="absolute -top-12 -left-12 w-16 h-16 text-neutral-100 rotate-180 pointer-events-none hidden sm:block" />
-            <h2 className="font-display font-bold text-2xl sm:text-[34px] leading-[1.3] text-[#061830] tracking-normal max-w-4xl mx-auto px-2">
+            <h2 className="font-display font-bold text-2xl sm:text-[34px] leading-[1.3] text-slate-900 tracking-normal max-w-4xl mx-auto px-2">
               “To help every family in New Brunswick live in <span className="text-[#C41230] font-extrabold">comfort</span>, by providing honest, affordable HVAC services rooted in <span className="text-[#C41230] font-extrabold">faith</span> and <span className="text-[#C41230] font-extrabold">integrity</span>.”
             </h2>
           </div>
@@ -211,19 +211,19 @@ export default function AboutUsPage({ onQuoteClick, onCallClick }: AboutUsPagePr
       </section>
 
       {/* 5. LET'S WORK TOGETHER CALL TO ACTION SECTION */}
-      <section className="py-16 bg-[#061830] text-white px-4 text-center">
-        <div className="max-w-[1000px] mx-auto bg-[#061830] py-4 rounded-3xl relative overflow-hidden">
+      <section className="py-16 bg-slate-50 border-t border-slate-200 px-4 text-center">
+        <div className="max-w-[1000px] mx-auto bg-slate-100 py-4 rounded-3xl relative overflow-hidden border border-slate-200">
           {/* Subtle decoration radar rings */}
           <div className="absolute inset-0 overflow-hidden pointer-events-none z-0">
-            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[400px] h-[400px] border border-white/[0.03] border-dashed rounded-full" />
-            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] border border-white/[0.03] border-dashed rounded-full" />
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[400px] h-[400px] border border-slate-300 border-dashed rounded-full" />
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] border border-slate-300 border-dashed rounded-full" />
           </div>
 
           <div className="relative z-10 font-sans">
-            <h2 className="font-display font-bold text-3xl sm:text-4xl text-white mb-4">
+            <h2 className="font-display font-bold text-3xl sm:text-4xl text-slate-900 mb-4">
               Let's Work Together
             </h2>
-            <p className="text-slate-300 text-sm sm:text-[15px] max-w-xl mx-auto leading-relaxed mb-8">
+            <p className="text-slate-650 text-sm sm:text-[15px] max-w-xl mx-auto leading-relaxed mb-8">
               Experience the difference of working with a company that genuinely cares. Get your free estimate today.
             </p>
             
@@ -238,9 +238,9 @@ export default function AboutUsPage({ onQuoteClick, onCallClick }: AboutUsPagePr
 
               <a
                 href="tel:5062910594"
-                className="border border-white/20 hover:border-white/45 bg-transparent hover:bg-white/5 text-white hover:scale-[1.02] active:scale-[0.98] px-8 py-4 rounded-xl text-xs font-display font-bold uppercase tracking-[0.18em] transition-all duration-300 flex items-center justify-center gap-2 shrink-0 shadow-lg shadow-black/10 cursor-pointer"
+                className="border border-slate-300 hover:border-slate-400 bg-white hover:bg-slate-50 text-slate-800 hover:scale-[1.02] active:scale-[0.98] px-8 py-4 rounded-xl text-xs font-display font-bold uppercase tracking-[0.18em] transition-all duration-300 flex items-center justify-center gap-2 shrink-0 shadow-md cursor-pointer"
               >
-                <Phone className="w-4 h-4 text-white" />
+                <Phone className="w-4 h-4 text-slate-700" />
                 <span>CALL NOW</span>
               </a>
             </div>

@@ -60,12 +60,12 @@ export default function GalleryPage({ onQuoteClick, onCallClick }: GalleryPagePr
     <div className="select-all font-sans text-neutral-800 bg-[#F8F9FA]">
       
       {/* 1. HERO HEADER */}
-      <section className="relative bg-[#061830] text-white pt-28 pb-20 sm:pt-36 sm:pb-24 px-4 overflow-hidden text-center">
+      <section className="relative bg-slate-100 text-slate-950 border-b border-slate-200 pt-28 pb-20 sm:pt-36 sm:pb-24 px-4 overflow-hidden text-center">
         {/* Radar Concentric Circles matching theme */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none z-0">
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[350px] h-[350px] border border-white/[0.03] border-dashed rounded-full" />
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[550px] h-[550px] border border-white/[0.03] border-dashed rounded-full" />
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[750px] h-[750px] border border-white/[0.03] border-dashed rounded-full" />
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[350px] h-[350px] border border-slate-300 border-dashed rounded-full" />
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[550px] h-[550px] border border-slate-300 border-dashed rounded-full" />
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[750px] h-[750px] border border-slate-300 border-dashed rounded-full" />
         </div>
 
         <div className="max-w-[1200px] mx-auto relative z-10">
@@ -75,7 +75,7 @@ export default function GalleryPage({ onQuoteClick, onCallClick }: GalleryPagePr
           <h1 className="font-display font-black text-4xl sm:text-5xl lg:text-[46px] tracking-tight leading-none mb-6">
             Project <span className="text-[#C41230]">Gallery</span>
           </h1>
-          <p className="text-slate-300 text-sm sm:text-base leading-relaxed max-w-2xl mx-auto font-sans">
+          <p className="text-slate-650 text-sm sm:text-base leading-relaxed max-w-2xl mx-auto font-sans">
             Real installations, real repairs, real results. See how we've helped homeowners and businesses across New Brunswick stay comfortable year-round.
           </p>
         </div>
@@ -99,7 +99,7 @@ export default function GalleryPage({ onQuoteClick, onCallClick }: GalleryPagePr
               </div>
 
               {/* Title */}
-              <h2 className="font-display font-extrabold text-2xl sm:text-3xl text-[#061830] tracking-tight mb-4 max-w-2xl mx-auto hover:text-[#C41230] transition-colors duration-200">
+              <h2 className="font-display font-extrabold text-2xl sm:text-3xl text-slate-900 tracking-tight mb-4 max-w-2xl mx-auto hover:text-[#C41230] transition-colors duration-200">
                 {item.title}
               </h2>
 
@@ -148,7 +148,7 @@ export default function GalleryPage({ onQuoteClick, onCallClick }: GalleryPagePr
                       style={{ left: `${pos}%` }}
                     >
                       <div className="absolute inset-y-0 -left-[1px] w-[2px] bg-white shadow-2xl" />
-                      <div className="absolute top-1/2 -translate-y-1/2 -left-4 w-8 h-8 rounded-full bg-white text-[#061830] border border-neutral-200 shadow-xl flex items-center justify-center pointer-events-none group-hover:scale-110 transition-transform duration-200">
+                      <div className="absolute top-1/2 -translate-y-1/2 -left-4 w-8 h-8 rounded-full bg-white text-slate-800 border border-neutral-200 shadow-xl flex items-center justify-center pointer-events-none group-hover:scale-110 transition-transform duration-200">
                         <ArrowLeftRight className="w-3.5 h-3.5" />
                       </div>
                     </div>
@@ -177,7 +177,7 @@ export default function GalleryPage({ onQuoteClick, onCallClick }: GalleryPagePr
           <span className="text-xs font-display font-extrabold tracking-[0.25em] text-[#C41230] uppercase mb-4 block">
             LET'S BUILD YOURS
           </span>
-          <h2 className="font-display font-black text-3xl sm:text-4xl text-[#061830] tracking-tight mb-4">
+          <h2 className="font-display font-black text-3xl sm:text-4xl text-slate-900 tracking-tight mb-4">
             Ready to Start <span className="text-[#C41230]">Your Project?</span>
           </h2>
           <p className="text-[#4a5568] text-sm sm:text-base leading-relaxed max-w-2xl mx-auto font-sans mb-10">
@@ -186,7 +186,7 @@ export default function GalleryPage({ onQuoteClick, onCallClick }: GalleryPagePr
 
           <div className="flex flex-wrap justify-center items-center gap-4">
             <button
-              onClick={onQuoteClick}
+               onClick={onQuoteClick}
               className="bg-[#C41230] hover:bg-[#a80e27] active:scale-[0.98] hover:scale-[1.01] transition-all duration-200 text-white px-8 py-4 rounded-xl text-xs font-display font-bold uppercase tracking-[0.18em] cursor-pointer shadow-lg shadow-[#C41230]/10 flex items-center gap-2"
             >
               <span>GET FREE ESTIMATE</span>
@@ -195,9 +195,9 @@ export default function GalleryPage({ onQuoteClick, onCallClick }: GalleryPagePr
 
             <a
               href="tel:5062910594"
-              className="border-2 border-[#061830]/80 hover:border-[#061830] bg-white hover:bg-[#061830]/5 text-[#061830] hover:scale-[1.01] active:scale-[0.98] px-8 py-4 rounded-xl text-xs font-display font-bold uppercase tracking-[0.18em] transition-all duration-200 flex items-center justify-center gap-2 shrink-0 cursor-pointer shadow-sm"
+              className="border-2 border-slate-300 hover:border-slate-400 bg-white hover:bg-slate-50 text-slate-800 hover:scale-[1.01] active:scale-[0.98] px-8 py-4 rounded-xl text-xs font-display font-bold uppercase tracking-[0.18em] transition-all duration-200 flex items-center justify-center gap-2 shrink-0 cursor-pointer shadow-sm"
             >
-              <Phone className="w-4 h-4 text-[#061830]" />
+              <Phone className="w-4 h-4 text-slate-700" />
               <span>CALL NOW</span>
             </a>
           </div>
