@@ -1,0 +1,6 @@
+{
+  "name": "E&A Affordable HVAC Services",
+  "description": "Affordable HVAC Solutions Built on Faith, Integrity & Quality Service for Riverview, Moncton, Dieppe, and surrounding New Brunswick areas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

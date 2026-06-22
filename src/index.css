@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,600&family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&family=Barlow+Condensed:wght@400;500;600;700;800;900&family=Source+Sans+3:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Source Sans 3", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Barlow Condensed", var(--font-sans);
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+
+  --color-brand-blue-950: #040d1a;
+  --color-brand-blue-900: #061830;
+  --color-brand-blue-800: #102a43;
+  --color-brand-blue-700: #1b365d;
+  --color-brand-red-700: #9e1b21;
+  --color-brand-red-650: #c41230;
+  --color-brand-red-630: #c41230;
+  --color-brand-red-600: #c41230;
+  --color-brand-red-500: #c41230;
+  --color-brand-gold: #fcc200;
+}
+
+@layer base {
+  body {
+    @apply font-sans bg-gray-50 text-gray-900 antialiased selection:bg-brand-red-500 selection:text-white;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+}
