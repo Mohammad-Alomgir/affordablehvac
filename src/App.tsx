@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Header from "./components/Header";
+import Header from "./nav/Header";
 import Hero from "./components/Hero";
 import WhyChooseUs from "./components/WhyChooseUs";
 import Services from "./components/Services";
@@ -9,12 +9,12 @@ import Testimonials from "./components/Testimonials";
 import BeforeAfter from "./components/BeforeAfter";
 import ServiceAreas from "./components/ServiceAreas";
 import EstimateForm from "./components/EstimateForm";
-import Footer from "./components/Footer";
-import ServicesPage from "./components/ServicesPage";
-import AboutUsPage from "./components/AboutUsPage";
-import GalleryPage from "./components/GalleryPage";
-import EducationPage from "./components/EducationPage";
-import ReviewsPage from "./components/ReviewsPage";
+import Footer from "./nav/Footer";
+import ServicesPage from "./pages/ServicesPage";
+import AboutUsPage from "./pages/AboutUsPage";
+import GalleryPage from "./pages/GalleryPage";
+import EducationPage from "./pages/EducationPage";
+import ReviewsPage from "./pages/ReviewsPage";
 
 export default function App() {
   const [view, setView] = useState<"home" | "services" | "about" | "gallery" | "education" | "reviews">("home");
