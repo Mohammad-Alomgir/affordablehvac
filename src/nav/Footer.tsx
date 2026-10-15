@@ -213,7 +213,7 @@ export default function Footer({ onNavigate }: FooterProps) {
             © 2026 E&A Affordable HVAC Services. All rights reserved.
           </p>
           
-          {/* Designer and LinkedIn credit with Mohammad Alomgir */}
+         {/* Designer and LinkedIn credit with Mohammad Alomgir 
           <div className="text-center">
             <a
               href="https://www.linkedin.com/in/alomgirwd/"
@@ -221,7 +221,7 @@ export default function Footer({ onNavigate }: FooterProps) {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 group text-slate-500 hover:text-[#C41230] transition-colors"
             >
-              {/* Custom refined round creator emblem */}
+               Custom refined round creator emblem 
               <div className="w-5 h-5 rounded-full bg-slate-200 border border-slate-300 flex items-center justify-center text-slate-800 group-hover:bg-[#C41230] group-hover:border-[#C41230] group-hover:text-white transition-all text-[9px] font-bold font-display tracking-tight shrink-0">
                 MA
               </div>
@@ -229,7 +229,7 @@ export default function Footer({ onNavigate }: FooterProps) {
                 Website Created by <span className="font-bold text-slate-700 transition-colors group-hover:text-[#C41230]">Mohammad Alomgir</span>
               </span>
             </a>
-          </div>
+          </div>  */}
 
           <p className="flex items-center justify-center text-center font-sans text-slate-600">
             <span className="text-[#C41230] mr-1.5 text-base leading-none">✦</span>
